@@ -7,5 +7,5 @@
 pip install -r requirements.txt
 ```
 ## Project Structure
-- region_tnn_sweeps.py - Main file containing TNN based Actor critic algorithm
+- [region_tnn_sweeps.py](region_tnn_sweeps.py) - Main file containing TNN based Actor critic algorithm
 - run_sweep.py – Entry point of the application.
