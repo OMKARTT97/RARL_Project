@@ -3,6 +3,15 @@
 **DA25D900-Sukanya Naik & DA24S012-Omkar Tupe**
 ![Alt text](point_cloud_rotation.gif)
 
+Object Name | Percentage of overlapped
+----------------------|------------------------
+Cube | 88.6%
+Pyramid| 86.6%
+Torus| 73.5% 
+Aeroplane | 77.7%
+Bowl| 80.6%
+Bottle  | 78.2%
+
 1. Install the required libraries in  environment using below command:
 ```
 pip install -r requirements.txt
@@ -27,11 +36,4 @@ The TD error for all runs initially fluctuates and then stabilizes near zero, wi
 
 ![total_pts_moved](Result/total_pts_moved.png)
 
-Object Name | Percentage of overlapped
-----------------------|------------------------
-Cube | 88.6%
-Pyramid| 86.6%
-Torus| 73.5% 
-Aeroplane | 77.7%
-Bowl| 80.6%
-Bottle  | 78.2%
+
