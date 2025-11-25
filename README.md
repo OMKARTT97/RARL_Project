@@ -14,6 +14,7 @@ pip install -r requirements.txt
 
 
 ![alt text](Result/reward_step.png)
+This plot shows the progression of reward per environment step for ten different RL experiment runs, revealing episodic jumps and performance variability across sweeps.
 
 ![alt_text](Result/actor_loss.png)
 Actor loss across all runs starts with high volatility, then stabilizes near zero, but shows regular sharp negative spikes likely due to periodic scheduled network updates.​
