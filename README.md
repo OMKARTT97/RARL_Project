@@ -23,3 +23,4 @@ Actor loss across all runs starts with high volatility, then stabilizes near zer
 The critic loss across 10 training runs shows frequent large spikes, indicating potential instability
 
 ![alt_text](Result/td_error.png)
+The TD error for all runs initially fluctuates and then stabilizes near zero, with periodic large negative spikes across steps, suggesting intermittent instability in value updates.​
