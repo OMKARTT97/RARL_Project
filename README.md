@@ -26,3 +26,12 @@ The critic loss across 10 training runs shows frequent large spikes, indicating 
 The TD error for all runs initially fluctuates and then stabilizes near zero, with periodic large negative spikes across steps, suggesting intermittent instability in value updates.​
 
 ![total_pts_moved](Result/total_pts_moved.png)
+
+Object Name | Percentage of overlapped
+----------------------|------------------------
+Cube | 88.6%
+Pyramid| 86.6%
+Torus| 73.5% 
+Aeroplane | 77.7%
+Bowl| 80.6%
+Bottle  | 78.2%
