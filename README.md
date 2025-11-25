@@ -9,4 +9,5 @@ pip install -r requirements.txt
 ```
 ## Project Structure
 - [region_tnn_sweeps.py](region_tnn_sweeps.py) - Main file containing TNN based Actor critic algorithm
-- run_sweep.py – Entry point of the application.
+- [run_sweep.py](run_sweep.py) – sweep files
+- [sweep_config_final_fixed.yaml](sweep_config_final_fixed.yaml) - Hyperparameter file
