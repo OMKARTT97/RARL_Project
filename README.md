@@ -18,3 +18,8 @@ This plot shows the progression of reward per environment step for ten different
 
 ![alt_text](Result/actor_loss.png)
 Actor loss across all runs starts with high volatility, then stabilizes near zero, but shows regular sharp negative spikes likely due to periodic scheduled network updates.​
+
+![alt_text](Result/critic_loss.png)
+The critic loss across 10 training runs shows frequent large spikes, indicating potential instability
+
+![alt_text](Result/td_error.png)
