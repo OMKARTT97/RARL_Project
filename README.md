@@ -14,3 +14,6 @@ pip install -r requirements.txt
 
 
 ![alt text](Result/reward_step.png)
+
+![alt_text](Result/actor_loss.png)
+Actor loss across all runs starts with high volatility, then stabilizes near zero, but shows regular sharp negative spikes likely due to periodic scheduled network updates.​
