@@ -1,0 +1,63 @@
+# sweep_config_final_fixed.yaml - FULLY CORRECTED AND TESTED
+
+program: region_tnn_sweeps.py
+method: grid
+metric:
+  goal: maximize
+  name: reward_epoch
+name: tnn-ac-sweep
+
+parameters:
+  # Learning and Optimization - use correct distribution names
+  learning_rate:
+    values: [0.0026299660975007523]
+  
+  weight_decay:
+    values: [0.0009311682309302072]
+  
+  gamma:
+    values: [0.969688243752658]
+  
+  entropy_coef:
+    values: [0.040248562365676976]
+  
+  # Changed: Use simple min/max instead of distribution for continuous params
+  critic_weight:
+    values: [0.8330108172837228]
+  
+  gradient_clip:
+    values: [1.99441230569718]
+
+  # Network Architecture - use discrete values
+  emb_dim:
+    values: [16]
+  
+  hidden_dim:
+    values: [128]
+  
+  n_directions:
+    values: [100]
+
+  # Action Space
+  max_distance:
+    values: [0.11]
+
+  # Region and Environment
+  num_regions:
+    values: [1]
+  
+  tmax:
+    values: [1000]
+  
+  epochs:
+    value: 200
+
+  # Reward Function Parameters
+  reward_threshold:
+    value: 0.05
+  
+  solved_bonus:
+    values: [59.90084746401439]
+  
+  move_penalty:
+    value: -10.0
